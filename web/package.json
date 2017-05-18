@@ -1,0 +1,37 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "emojione": "^3.0.3",
+    "es6-promise": "^4.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.18.1",
+    "phoenix": "^1.2.1",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.3",
+    "react-dom": "^15.5.3",
+    "react-dropzone": "^3.13.1",
+    "react-quill": "^1.0.0-rc.2",
+    "react-redux": "^5.0.4",
+    "react-select": "^1.0.0-rc.3",
+    "reapop": "^1.0.0",
+    "reapop-theme-wybo": "^0.4.1",
+    "redux": "^3.6.0",
+    "redux-form": "^6.6.3",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0",
+    "velocity-react": "^1.2.2"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "proxy": "http://localhost:4000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

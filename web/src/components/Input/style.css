@@ -1,0 +1,112 @@
+.c-form-group {
+  margin-bottom: 1.2rem;
+}
+
+.c-form-error {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #ea4c4c;
+}
+
+.c-input {
+  position: relative;
+  width: 100%;
+  height: var(--input--height);
+}
+
+.c-input__error {
+  color: #ea4c4c;
+}
+
+.c-input--rounded:after {
+  border-radius: 5em;
+}
+
+.c-input--rounded .c-input-wrapper {
+  padding: 0 .4em;
+}
+
+.c-input-action {
+  height: inherit;
+}
+
+.c-input .c-icon {
+  padding-left: 1em;
+}
+
+.c-input .c-icon:last-child {
+  padding-right: 1em;
+}
+
+.c-input-wrapper {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.c-input__control {
+  width: 100%;
+  height: inherit;
+  border: 0 none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.c-input:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background: rgba(161, 196, 253, 0.15);
+}
+
+/* Button */
+.c-btn {
+  font-size: 14px;
+  padding: 1rem;
+  border: 0;
+  color: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.c-btn:disabled {
+  background-color: rgba(234, 76, 137, .5);
+}
+
+.c-btn--block {
+  width: 100%;
+}
+
+.c-btn--rounded {
+  border-radius: 20px;
+}
+
+.c-btn--primary {
+  color: #fbfcfe;
+  background-color: #ea4c89;
+}
+
+.c-btn--primary:active {
+  background-color: #bd3d6f;
+}
+
+.c-btn--secondary {
+  color: #fbfcfe;
+  background-color: #7098da;
+}
+
+.c-btn--secondary:active {
+  background-color: #5776a9;
+}

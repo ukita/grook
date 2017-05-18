@@ -1,0 +1,14 @@
+.logo {
+  font-size: 42px;
+  color: #fff;
+  width: 1.6428571429em;
+  height: 1.6428571429em;
+  line-height: 1.6428571429em;
+  text-align: center;
+  font-weight: 500;
+  background-color: #ea4c89;
+  box-shadow: 0 0 0 5px #fff;
+  border-radius: 5px;
+  user-select: none;
+  cursor: default;
+}

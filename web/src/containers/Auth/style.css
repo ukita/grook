@@ -1,0 +1,40 @@
+.chat-auth {
+  position: relative;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafbff;
+}
+
+.chat-auth__form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.c-tabs__action {
+  color: #ea4c89;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 2rem;
+  padding: 0.5rem;
+}
+
+.is-active.c-tabs__action {
+  border-bottom: .15em solid #ea4c89;
+}
+
+.chat-auth__logo {
+  align-self: center;
+  margin-bottom: 2rem;
+}

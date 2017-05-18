@@ -1,0 +1,16 @@
+.c-icon {
+  box-sizing: content-box;
+  color: inherit;
+  fill: currentColor;
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 1.2em;
+}
+
+.c-input .c-icon {
+  padding-left: 1em;
+}
+
+.c-input .c-icon:last-child {
+  padding-right: 1em;
+}

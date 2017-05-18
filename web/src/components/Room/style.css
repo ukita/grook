@@ -1,0 +1,138 @@
+.card-chat {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  transition: background-color .1s ease-in;
+}
+
+.card-chat:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.card-chat-figure {
+  position: relative;
+  flex-shrink: 0;
+  margin-right: 20px;
+  min-width: 0;
+}
+
+.card-chat-counter {
+  position: absolute;
+  bottom: 80%;
+  left: 65%;
+}
+
+.card-chat-figure__img {
+  height: 60px;
+}
+
+.card-chat__text-wrapper {
+  flex-shrink: 1;
+  flex-grow: 1;
+  flex-basis: 0%;
+  min-width: 0;
+}
+
+.card-chat-label {
+  display: inline-block;
+  border-radius: 2em;
+  min-width: 1em;
+  margin-left: 1em;
+}
+
+/* Label */
+.c-label {
+  font-size: 12px;
+  text-align: center;
+  display: inline-block;
+  padding: 0 .2em;
+  min-width: 1.4em;
+  min-height: 1.4em;
+  line-height: 1.4em;
+  border-radius: 3em;
+  color: #fcc4d6;
+}
+
+.c-label--primary {
+  background-color: #f53b78;
+}
+
+.c-label--big {
+  padding: .2em .5em;
+}
+
+/* Input */
+.c-form-group {
+  margin-bottom: 1.2rem;
+}
+
+.c-form-error {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #ea4c4c;
+}
+
+.c-input {
+  position: relative;
+  width: 100%;
+  height: var(--input--height);
+}
+
+.c-input--rounded:after {
+  border-radius: 5em;
+}
+
+.c-input--rounded .c-input-wrapper {
+  padding: 0 .4em;
+}
+
+.c-input-action {
+  height: inherit;
+}
+
+.c-input .c-icon {
+  padding-left: 1em;
+}
+
+.c-input .c-icon:last-child {
+  padding-right: 1em;
+}
+
+.c-input-wrapper {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  height: inherit;
+}
+
+.c-input__control {
+  width: 100%;
+  height: inherit;
+  border: 0 none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.c-input:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background: rgba(161, 196, 253, 0.15);
+}
+
+.is-active.card-chat {
+  color: #fff;
+  background-color: #f53b78;
+}

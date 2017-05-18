@@ -1,0 +1,10 @@
+.chat {
+  position: fixed;
+  overflow: hidden;
+  top: 45px;
+  right: 40px;
+  bottom: 40px;
+  left: 40px;
+  border-radius: 5px;
+  display: flex;
+}
